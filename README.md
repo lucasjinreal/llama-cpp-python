@@ -1,3 +1,25 @@
+# llama_cpp_python
+
+this forked version contains some modifications:
+
+- [x] chat API with latest llama.cpp;
+- [ ] an easily to use any users input and given response without fix a script prefix;
+- [ ] some APP demos which powerd by this.
+
+You should install with:
+
+```
+pip install -e .
+```
+
+for this version.
+
+
+
+
+
+------------------------
+
 # 🦙 Python Bindings for `llama.cpp`
 
 [![Documentation](https://img.shields.io/badge/docs-passing-green.svg)](https://abetlen.github.io/llama-cpp-python)
