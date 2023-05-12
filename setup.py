@@ -14,8 +14,9 @@ setup(
     author="Andrei Betlen",
     author_email="abetlen@gmail.com",
     license="MIT",
-    package_dir={"llama_cpp": "llama_cpp", "llama_cpp.server": "llama_cpp/server"},
-    packages=["llama_cpp", "llama_cpp.server"],
+    package_dir={"llama_cpp": "llama_cpp",
+                 "llama_cpp.server": "llama_cpp/server", "llama_cpp.chat": "llama_cpp/chat"},
+    packages=["llama_cpp", "llama_cpp.server", "llama_cpp.chat"],
     install_requires=[
         "typing-extensions>=4.5.0",
     ],

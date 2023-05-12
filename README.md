@@ -9,7 +9,8 @@ this forked version contains some modifications:
 You should install with:
 
 ```
-pip install -e .
+pip install scikit-build
+python setup.py build develop --user
 ```
 
 for this version.
